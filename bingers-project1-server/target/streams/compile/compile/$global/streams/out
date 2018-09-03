@@ -1,0 +1,2 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/bingerso/GitHub-Projects/csc750-project1/bingers-project1/app/controllers/HomeController.java:157:1: ')' expected[0m
+[0m[[0m[31merror[0m] [0m[0m        return ok("Data stored successfully";[0m
