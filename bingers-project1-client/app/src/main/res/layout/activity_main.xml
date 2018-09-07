@@ -13,8 +13,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="bingers"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="82dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline3"
@@ -28,23 +28,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Username:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.008"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.138" />
+        app:layout_constraintStart_toStartOf="@+id/host"
+        app:layout_constraintTop_toBottomOf="@+id/host" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_width="36dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
         android:text="Host:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.008"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.006" />
+        app:layout_constraintBottom_toBottomOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -60,32 +56,42 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="10.0.2.2:9000"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="22dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
 
     <Button
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
         android:onClick="startTracking"
         android:text="Start"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="128dp" />
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/username"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <TextView
         android:id="@+id/logging"
-        android:layout_width="381dp"
-        android:layout_height="331dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="176dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnStop" />
 
     <Button
         android:id="@+id/btnStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="stopTracking"
         android:text="Stop"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="128dp" />
+        android:visibility="visible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnStart"
+        app:layout_constraintStart_toEndOf="@+id/btnStart" />
 
 </android.support.constraint.ConstraintLayout>

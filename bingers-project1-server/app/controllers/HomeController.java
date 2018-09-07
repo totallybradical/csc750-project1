@@ -1,5 +1,6 @@
 package controllers;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.inject.Singleton;
 import com.google.inject.Inject;
 import play.Logger;
@@ -146,15 +147,12 @@ public class HomeController extends Controller {
                 Logger.debug(e.getMessage());
             }
 
-//            ObjectMapper mapper = new ObjectMapper();
-//            try {
-//                return ok(mapper.readTree("{\"Distance Traveled\":\"" + total_dist_traveled + "\"}"));
-//            } catch (Exception e) {
-//                return badRequest("Failed to return JSON");
-//            }
+            ObjectMapper mapper = new ObjectMapper();
+            try {
+                return ok(mapper.readTree("{\"totalDist\":\"" + totalDist + "\"}"));
+            } catch (Exception e) {
+                return badRequest("Failed to return JSON");
+            }
         }
-
-        Logger.debug("Data stored successfully");
-        return ok("Data stored successfully");
     }
 }

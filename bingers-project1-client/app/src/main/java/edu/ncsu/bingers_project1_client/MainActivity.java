@@ -8,24 +8,26 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button stopButton = findViewById(R.id.btnStop);
-    Button startButton = findViewById(R.id.btnStart);
+    Button stopButton;
+    Button startButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        stopButton = findViewById(R.id.btnStop);
+        startButton = findViewById(R.id.btnStart);
+        stopButton.setVisibility(View.INVISIBLE);
+        startButton.setVisibility(View.VISIBLE);
     }
 
     /** Called when the user presses the START button */
     public void startTracking(View view) {
-        stopButton.setVisibility(View.GONE);
-        startButton.setVisibility(View.VISIBLE);
         android.content.Intent trackingIntent = new android.content.Intent(view.getContext(), LocationTracker.class);
-        EditText hostField = findViewById(R.id.username);
-        EditText usernameField = findViewById(R.id.host);
-        trackingIntent.putExtra("HOST", hostField.getText().toString());
-        trackingIntent.putExtra("USERNAME", usernameField.getText().toString());
+        EditText hostText = findViewById(R.id.host);
+        EditText usernameText = findViewById(R.id.username);
+        trackingIntent.putExtra("HOST", hostText.getText().toString());
+        trackingIntent.putExtra("USERNAME", usernameText.getText().toString());
         startActivityForResult(trackingIntent, 0);
     }
 }

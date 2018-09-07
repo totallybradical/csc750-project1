@@ -37,8 +37,8 @@ public class LocationTracker extends AppCompatActivity implements LocationListen
     /* Constant Fine Location Permission */
     private static final int MY_PERMISSION_ACCESS_FINE_LOCATION = 12;
 
-    Button stopButton = findViewById(R.id.btnStop);
-    Button startButton = findViewById(R.id.btnStart);
+    Button stopButton;
+    Button startButton;
 
     double latitude;
     double longitude;
@@ -55,22 +55,29 @@ public class LocationTracker extends AppCompatActivity implements LocationListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        stopButton = findViewById(R.id.btnStop);
+        startButton = findViewById(R.id.btnStart);
+
+        stopButton.setVisibility(View.VISIBLE);
+        startButton.setVisibility(View.INVISIBLE);
+
         logText = findViewById(R.id.logging);
 
         username = getIntent().getStringExtra("USERNAME");
         host = getIntent().getStringExtra("HOST");
         serverURL = "http://" + host + "/locationupdate";
 
-        // logText.append(username + " " + host + "\n");
+        logText.append(username + " " + host + "\n");
         logText.append("Tracking started...\n");
 
         final RequestQueue queue = newRequestQueue(this); // this = context
 
-        final LocationManager lm = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
         if ( ContextCompat.checkSelfPermission( this, Manifest.permission.ACCESS_FINE_LOCATION ) != PackageManager.PERMISSION_GRANTED ) {
 
             ActivityCompat.requestPermissions( this, new String[] {  Manifest.permission.ACCESS_FINE_LOCATION  }, MY_PERMISSION_ACCESS_FINE_LOCATION);
         }
+
+        final LocationManager lm = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
         lm.requestLocationUpdates(LocationManager.GPS_PROVIDER,0,0,this);
 
         Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
@@ -97,7 +104,7 @@ public class LocationTracker extends AppCompatActivity implements LocationListen
                     public void onResponse(JSONObject response) {
                         try {
 //                            double roundedDistance = new BigDecimal(response.getDouble("Distance Traveled")).setScale(3, RoundingMode.HALF_UP).doubleValue();
-                            logText.append("Distance traveled: " + response.getDouble("Distance Traveled") + " m\n");
+                            logText.append("Distance traveled: " + response.getDouble("totalDist") + " m\n");
                         } catch (Exception e) {
                             logText.append("JSONException: " + e.getMessage());
                         }
@@ -138,7 +145,7 @@ public class LocationTracker extends AppCompatActivity implements LocationListen
                             public void onResponse(JSONObject response) {
                                 try {
 //                                    double roundedDistance = new BigDecimal(response.getDouble("Distance Traveled")).setScale(3, RoundingMode.HALF_UP).doubleValue();
-                                    logText.append("Distance traveled: " + response.getDouble("Distance Traveled") + " m\n");
+                                    logText.append("Distance traveled: " + response.getDouble("totalDist") + " m\n");
                                 } catch (Exception e) {
                                     logText.append("JSONException: " + e.getMessage());
                                 }
@@ -160,8 +167,6 @@ public class LocationTracker extends AppCompatActivity implements LocationListen
 
         stopButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                stopButton.setVisibility(View.GONE);
-                startButton.setVisibility(View.VISIBLE);
                 handler.removeCallbacksAndMessages(null);
                 android.content.Intent myIntent = new android.content.Intent(view.getContext(), MainActivity.class);
                 startActivityForResult(myIntent, 0);
