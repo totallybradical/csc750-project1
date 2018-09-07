@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aed827a8-9ce0-4540-9925-d56408acbb44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/.g8/form/app/controllers/$model__Camel$Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/.g8/form/app/controllers/$model__Camel$Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/.g8/form/app/views/$model__camel$/form.scala.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/.g8/form/default.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/.g8/form/generated-test/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/.g8/form/generated-test/controllers/$model__Camel$ControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/app/controllers/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/app/views/index.scala.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/app/views/main.scala.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/build.sbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/conf/application.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/conf/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/conf/routes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/project/build.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/project/plugins.sbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/project/scaffold.sbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/public/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/public/javascripts/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/public/stylesheets/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bingers-project1/test/controllers/HomeControllerTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="aed827a8-9ce0-4540-9925-d56408acbb44" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
@@ -36,6 +10,36 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="p1Server" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="p1Server" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="p1Server" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -78,7 +82,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="-585">
               <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
@@ -274,12 +278,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536010313065</updated>
-      <workItem from="1536010314702" duration="235000" />
+      <workItem from="1536010314702" duration="733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235000" />
+    <option name="totallyTimeSpent" value="733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1129" extended-state="0" />
@@ -339,7 +343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="-585">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
