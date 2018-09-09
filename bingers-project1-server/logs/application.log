@@ -1,66 +1,60 @@
-2018-09-07 10:42:23,513 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] initialized at jdbc:sqlite:./db/p1Server.db
-2018-09-07 10:42:23,519 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
-2018-09-07 10:42:24,022 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-2 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2018-09-07 10:42:24,210 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2018-09-08 20:23:50,643 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] initialized at jdbc:sqlite:./db/p1Server.db
+2018-09-08 20:23:50,647 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2018-09-08 20:23:51,134 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-4 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-09-08 20:23:51,307 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
 
-2018-09-07 10:42:24,214 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev)
-2018-09-07 10:44:41,090 [INFO] from application in application-akka.actor.default-dispatcher-6 - Shutting down connection pool.
-2018-09-07 10:44:41,717 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] initialized at jdbc:sqlite:./db/p1Server.db
-2018-09-07 10:44:41,717 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
-2018-09-07 10:44:41,754 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-4 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2018-09-07 10:44:41,919 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-
-2018-09-07 10:44:41,921 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
-2018-09-07 11:18:49,603 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333527112, 41.229998333333334, -131.788, true
-2018-09-07 11:18:52,756 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333532116, 41.229998333333334, -131.788, false
-2018-09-07 11:18:57,755 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333537119, 41.229998333333334, -131.788, false
-2018-09-07 11:19:02,757 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333542121, 41.229998333333334, -131.788, false
-2018-09-07 11:19:07,762 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333547127, 41.229998333333334, -131.788, false
-2018-09-07 11:19:12,765 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333552130, 41.229998333333334, -131.788, false
-2018-09-07 11:19:17,773 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333557134, 41.229998333333334, -131.788, false
-2018-09-07 11:19:22,827 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333562138, 41.229998333333334, -131.788, false
-2018-09-07 11:19:27,778 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333567141, 41.229998333333334, -131.788, false
-2018-09-07 11:19:32,816 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333572147, 41.229998333333334, -131.788, false
-2018-09-07 11:19:37,782 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333577150, 41.229998333333334, -131.788, false
-2018-09-07 11:19:55,821 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333595159, 41.229998333333334, -131.788, true
-2018-09-07 11:20:00,802 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333600162, 41.229998333333334, -131.788, false
-2018-09-07 11:20:05,803 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333605165, 41.229998333333334, -131.788, false
-2018-09-07 11:20:10,807 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333610169, 41.229998333333334, -131.788, false
-2018-09-07 11:20:15,811 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333615171, 41.229998333333334, -131.788, false
-2018-09-07 11:20:20,813 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333620174, 41.229998333333334, -131.788, false
-2018-09-07 11:20:25,813 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333625176, 41.229998333333334, -131.788, false
-2018-09-07 11:20:30,816 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333630178, 41.229998333333334, -131.788, false
-2018-09-07 11:20:35,822 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333635183, 41.229998333333334, -131.788, false
-2018-09-07 11:20:40,825 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333640186, 41.229998333333334, -131.788, false
-2018-09-07 11:20:45,824 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333645191, 41.229998333333334, -131.788, false
-2018-09-07 11:20:50,832 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333650195, 41.229998333333334, -131.788, false
-2018-09-07 11:20:55,826 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333655198, 41.229998333333334, -131.788, false
-2018-09-07 11:21:00,823 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333660200, 41.229998333333334, -131.788, false
-2018-09-07 11:21:05,830 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333665203, 41.229998333333334, -132.788, false
-2018-09-07 11:21:10,831 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333670206, 41.229998333333334, -133.788, false
-2018-09-07 11:21:15,827 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333675208, 41.229998333333334, -133.788, false
-2018-09-07 11:21:20,826 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333680212, 41.229998333333334, -133.788, false
-2018-09-07 11:21:25,835 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333685217, 41.229998333333334, -133.788, false
-2018-09-07 11:21:30,833 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333690218, 41.229998333333334, -133.788, false
-2018-09-07 11:23:49,870 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333829177, 41.229998333333334, -133.788, true
-2018-09-07 11:23:54,792 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333834182, 41.229998333333334, -133.788, false
-2018-09-07 11:23:59,802 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333839185, 41.229998333333334, -133.788, false
-2018-09-07 11:24:04,807 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333844188, 41.229998333333334, -133.788, false
-2018-09-07 11:24:34,780 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333874174, 41.229998333333334, -133.788, true
-2018-09-07 11:24:39,801 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333879180, 41.229998333333334, -133.788, false
-2018-09-07 11:24:44,875 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333884182, 41.229998333333334, -133.788, false
-2018-09-07 11:24:49,808 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333889186, 41.229998333333334, -133.788, false
-2018-09-07 11:24:54,804 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333894188, 41.229998333333334, -133.788, false
-2018-09-07 11:24:59,811 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333899191, 41.229998333333334, -133.788, false
-2018-09-07 11:25:04,817 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333904194, 41.229998333333334, -133.78999833333333, false
-2018-09-07 11:25:09,815 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333909197, 41.229998333333334, -133.792, false
-2018-09-07 11:25:14,813 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333914199, 41.229998333333334, -133.792, false
-2018-09-07 11:25:20,031 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333919403, 41.229998333333334, -133.792, true
-2018-09-07 11:25:22,485 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333921859, 41.229998333333334, -133.792, true
-2018-09-07 11:25:48,506 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - Received: bingers, 1536333947873, 41.229998333333334, -133.792, true
+2018-09-08 20:23:51,311 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
+2018-09-08 20:23:51,836 [DEBUG] from application in application-akka.actor.default-dispatcher-2 - Received: bingers, 1536452627418, 60.49069833333333, 15.420098333333332, true
+2018-09-08 20:23:51,836 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452627418, 60.49069833333333, 15.420098333333332, true
+2018-09-08 20:23:51,853 [DEBUG] from application in application-akka.actor.default-dispatcher-2 - Average speed: 0.0 m/s
+2018-09-08 20:23:51,858 [DEBUG] from application in application-akka.actor.default-dispatcher-2 - {"totalDist":"0.0","delay":"5000"}
+2018-09-08 20:23:52,859 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 0.0 m/s
+2018-09-08 20:23:52,859 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"0.0","delay":"5000"}
+2018-09-08 20:23:56,962 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452636796, 60.4872, 15.426799999999998, false
+2018-09-08 20:23:56,965 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 83.0839575663766 m/s
+2018-09-08 20:23:56,965 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"830.8395756637659","delay":"1000"}
+2018-09-08 20:24:01,960 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452641800, 60.487399999999994, 15.426398333333335, false
+2018-09-08 20:24:01,968 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 71.82403272773018 m/s
+2018-09-08 20:24:01,969 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"880.1437587142033","delay":"1000"}
+2018-09-08 20:24:02,959 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452642803, 60.48749833333333, 15.426298333333333, false
+2018-09-08 20:24:02,964 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 57.73756351382211 m/s
+2018-09-08 20:24:02,964 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"895.6219145863012","delay":"1000"}
+2018-09-08 20:24:03,969 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452643806, 60.48749833333333, 15.426198333333332, false
+2018-09-08 20:24:03,975 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 48.381095494605724 m/s
+2018-09-08 20:24:03,975 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"906.5771380040413","delay":"1000"}
+2018-09-08 20:24:04,969 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452644810, 60.48760000000001, 15.426098333333334, false
+2018-09-08 20:24:04,972 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 51.529526491820015 m/s
+2018-09-08 20:24:04,972 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"922.3192929901128","delay":"1000"}
+2018-09-08 20:24:05,971 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452645813, 60.48760000000001, 15.425999999999998, false
+2018-09-08 20:24:05,977 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 20.450463983688884 m/s
+2018-09-08 20:24:05,977 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"933.0918955822103","delay":"1000"}
+2018-09-08 20:24:06,978 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452646817, 60.48769833333334, 15.425900000000002, false
+2018-09-08 20:24:06,982 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 13.685248984860142 m/s
+2018-09-08 20:24:06,983 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"948.570003638504","delay":"2329"}
+2018-09-08 20:24:07,978 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452647824, 60.4878, 15.425699999999999, false
+2018-09-08 20:24:07,982 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 13.055097793289292 m/s
+2018-09-08 20:24:07,982 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"973.2248034669913","delay":"2462"}
+2018-09-08 20:24:10,310 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452650155, 60.4879, 15.425498333333334, false
+2018-09-08 20:24:10,315 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 13.337380178339936 m/s
+2018-09-08 20:24:10,315 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"997.958074152978","delay":"2403"}
+2018-09-08 20:24:12,779 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452652619, 60.487998333333344, 15.4253, false
+2018-09-08 20:24:12,784 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 12.621320022430519 m/s
+2018-09-08 20:24:12,784 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"1022.2817825660268","delay":"2553"}
+2018-09-08 20:24:15,179 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452655025, 60.4881, 15.425100000000002, false
+2018-09-08 20:24:15,184 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 12.932261475948803 m/s
+2018-09-08 20:24:15,185 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"1046.9364022854047","delay":"2488"}
+2018-09-08 20:24:17,740 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452657581, 60.48819833333334, 15.424898333333333, false
+2018-09-08 20:24:17,744 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 12.301672485826362 m/s
+2018-09-08 20:24:17,744 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"1071.5867284967676","delay":"2621"}
+2018-09-08 20:24:20,229 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452660072, 60.488299999999995, 15.424598333333332, false
+2018-09-08 20:24:20,233 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 13.311679762860422 m/s
+2018-09-08 20:24:20,234 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"1106.3416010955955","delay":"2408"}
+2018-09-08 20:24:22,848 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452662696, 60.48839833333333, 15.424399999999999, false
+2018-09-08 20:24:22,854 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 13.27069959826415 m/s
+2018-09-08 20:24:22,854 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"1130.6650701356195","delay":"2417"}
+2018-09-08 20:24:25,269 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Received: bingers, 1536452665108, 60.48859833333333, 15.424098333333331, false
+2018-09-08 20:24:25,274 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - Average speed: 14.821659561411206 m/s
+2018-09-08 20:24:25,274 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - {"totalDist":"1170.4983781801388","delay":"2090"}
